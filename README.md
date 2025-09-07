@@ -1,5 +1,5 @@
 "Campus Event Management System" 
-This project implements a Campus Event Management system that displays all registered events for each student using a unique ID. Students can mark their attendance as present and also submit feedback by rating events from 1 to 5
+ Campus Event Management system that displays all registered events for each student using a unique ID. Students can mark their attendance as present and also submit feedback by rating events from 1 to 5
    Admin Role:
 The system allows college administrators to create and manage events such as workshops, hackathons, seminars, and cultural fests. Each event is linked to a specific college, and administrators can view, edit, or cancel events as needed. This ensures that all event-related data is structured and accessible for reporting purposes.
    Student Role:
