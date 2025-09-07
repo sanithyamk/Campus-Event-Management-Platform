@@ -24,22 +24,24 @@ It listens on a port (3000 in my case).
 3)http://localhost:3000/reports/feedback
 4)http://localhost:3000/reports/events-by-type/Workshop
 
-    HOW TO RUN THIS
-  pip install mysql-connector-python : This is for Python projects, It installs the MySQL Connector library so Python can connect to a MySQL database.
-  npm install express mysql2 cors body-parser : This is for Node.js projects
+    HOW TO RUN THIS ( and to install some of the things which is needed in this)
+  pip install mysql-connector-python       ( This is for Python projects, It installs the MySQL Connector library so Python can connect to a MySQL database.)
+  npm install express mysql2 cors body-parser   (This is for Node.js projects)
+     Create files and run this to check 
   >> python step1_setup.py
   >> python step2_seed.py
   >>  python step3_populate_activity.py
-  >> npm init -y                                         
+  >> npm init -y       (Creates a package.json file with default settings)                                  
 >>  npm install -g live-server
->> start index.html
+
    TO RUN and SEE THE OUTPUT 
 >>cd C:\webknot\campus_events\frontend
->> live-server  (it will the output )
+>> live-server  (it will the output )         or   start index.html ( Default output will be Visible in Chrome or Edge automatically)
 >> cd C:\webknot\campus_events
 >> node server.js (it will connect with backend it has to run to get the frontend)
 Server running on http://localhost:3000
-    TO push all the code to github without missing any code 
+
+    TO push all the code to github without missing any code (below code will be Generated when you create a repositories)
 git remote add origin https://github.com/sanithyamk/Campus-Event-Management-Platform.git
 >> git branch -M main
 >> git push -u origin main
