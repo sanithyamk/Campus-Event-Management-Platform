@@ -3,7 +3,7 @@
    Admin Role:
 The system allows college administrators to create and manage events such as workshops, hackathons, seminars, and cultural fests. Each event is linked to a specific college, and administrators can view, edit, or cancel events as needed. This ensures that all event-related data is structured and accessible for reporting purposes.
    Student Role:
-Students who registered for events using their unique student ID.They can view a list of their registered events, mark their attendance as present on the event day, and submit feedback by rating events from 1 to 5. This provides real-time tracking of participation and satisfaction.
+Students who registered for events using their unique student ID.They can view a list of their registered events, mark their attendance as present on the event day, and submit feedback by rating events from 1to 5 This provides real-time tracking of participation and satisfaction.
    Database Tracking:
 The backend database stores all essential data including students, events, registrations, attendance, and feedback. Constraints like unique registration prevent duplicate entries, ensuring data integrity. This structured storage allows efficient generation of reports and analytics.
    Reports & Analytics:
@@ -15,10 +15,10 @@ Top 3 Active Students: Highlights students with the highest attendance, helping 
 - Frontend: HTML, CSS, JavaScript
 - Python (for DB setup script)
     To check the backend is running use this
- 1)(node server.js) : It will help to start your backend server (built using Node.js + Express).
-It connects to MySQL (your database).
-It listens on a port (3000 in my case).
-    It provides API endpoints :The system provides API endpoints that query MySQL and return data in JSON format for student participation, top active students, event feedback, and event filtering by type
+ 1)(node server.js) : It will help to start your backend server (by built using Node.js and Express).
+-It connects to MySQL (your database).
+-It listens on a port (3000 in my case).
+   - It provides API endpoints :The system provides API endpoints that query MySQL and return data in JSON format for student participation, top active students, event feedback, and event filtering by type
   1)http://localhost:3000/reports/student-participation
 2)http://localhost:3000/reports/top-students
 3)http://localhost:3000/reports/feedback
